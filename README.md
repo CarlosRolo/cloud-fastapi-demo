@@ -31,8 +31,8 @@ API available at http://localhost:8000/docs
 
 ## Project Structure
 
+```
 cloud-fastapi-demo/
-
 ├── app/
 │   ├── main.py          # App entry point
 │   ├── schemas.py       # Pydantic models
@@ -41,6 +41,7 @@ cloud-fastapi-demo/
 ├── .github/workflows/   # GitHub Actions CI/CD
 ├── Dockerfile           # Multi-stage build
 └── docker-compose.yml   # Dev orchestration
+```
 
 ## CI/CD Pipeline
 
