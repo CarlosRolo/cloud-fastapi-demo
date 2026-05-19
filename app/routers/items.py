@@ -1,6 +1,8 @@
-﻿from fastapi import APIRouter, HTTPException
+﻿from typing import List
+
+from fastapi import APIRouter, HTTPException
+
 from app.schemas import ItemCreate, ItemResponse
-from typing import List
 
 router = APIRouter()
 
