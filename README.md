@@ -32,6 +32,7 @@ API available at http://localhost:8000/docs
 ## Project Structure
 
 cloud-fastapi-demo/
+
 ├── app/
 │   ├── main.py          # App entry point
 │   ├── schemas.py       # Pydantic models
